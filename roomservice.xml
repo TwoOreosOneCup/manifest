@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="kygo" fetch="https://github.com/TwoOreosOneCup/" />
+  
+  <!-- Device related stuffs -->
+  <project name="device" path="device/xiaomi/lavender" remote="kygo" />
+  <project name="kernel" path="kernel/xiaomi/lavender" remote="kygo" />
+  <project name="vendor" path="vendor/xioami/lavender" remote="kygo" />
+    
+  <!-- LineageOS related stuffs -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+
+</manifest>
